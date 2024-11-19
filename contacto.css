@@ -19,8 +19,7 @@ main {
     border: 1px solid #00FF00;
 }
 
-li,
-p {
+li,p {
     color: white;
 }
 
@@ -43,8 +42,7 @@ form label {
     color: #00FF00;
 }
 
-form input,
-form textarea {
+form input, form textarea {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #00FF00;
@@ -70,8 +68,7 @@ form button:hover {
 }
 
 /* Estilo base para ambos diseños */
-#imagen1,
-#imagen2 {
+#imagen1, #imagen2 {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -112,55 +109,4 @@ form button:hover {
 
 
 
-/*
 
-#imagen1{
-    margin-right: 50%;
-}
-
-#imagen2{
-    margin-top: 25px;
-    margin-left: 50%;
-}
-
-
-
-.fotoFabrica1 {
-    width: 700px;
-    height: 400px;
-    margin-right: 50%;
-}
-
-.fotoFabrica2 {
-    width: 700px;
-    height: 400px;
-    margin-top: 25px;
-    margin-left: 50%;
-}
-*/
-
-
-/* Footer */
-
-footer {
-    background-color: #111;
-    color: #00FF00;
-    padding: 20px;
-    text-align: center;
-    font-size: 0.9em;
-}
-
-footer .social-links {
-    margin-top: 10px;
-}
-
-footer .social-links a {
-    color: #00FF00;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-footer .social-links a:hover {
-    color: #FFFFFF;
-}
