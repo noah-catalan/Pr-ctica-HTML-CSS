@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #FFF;
+}
+
+main {
+    padding: 20px;
+}
+
+#about,
+#team,
+#contacto,
+#fabricacion {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 1px solid #00FF00;
+}
+
+li,
+p {
+    color: white;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+h2,
+h3 {
+    color: #00FF00;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    color: #00FF00;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #00FF00;
+    margin-top: 5px;
+    background-color: #222;
+    color: #FFF;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #00FF00;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #FFF;
+}
+
+/* Estilo base para ambos diseños */
+#imagen1,
+#imagen2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Espacio entre la imagen y el texto */
+    padding: 20px;
+}
+
+.image-container {
+    flex: 1;
+    /* Imagen ocupa espacio proporcional */
+}
+
+.text-container {
+    flex: 2;
+    /* Texto ocupa más espacio que la imagen */
+}
+
+.text-container h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.fotoFabrica1,
+.fotoFabrica2 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+
+
+/*
+
+#imagen1{
+    margin-right: 50%;
+}
+
+#imagen2{
+    margin-top: 25px;
+    margin-left: 50%;
+}
+
+
+
+.fotoFabrica1 {
+    width: 700px;
+    height: 400px;
+    margin-right: 50%;
+}
+
+.fotoFabrica2 {
+    width: 700px;
+    height: 400px;
+    margin-top: 25px;
+    margin-left: 50%;
+}
+*/
+
+
+/* Footer */
+
+footer {
+    background-color: #111;
+    color: #00FF00;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: #00FF00;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+    color: #FFFFFF;
+}
