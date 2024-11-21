@@ -1,6 +1,3 @@
-/* Estilos generales */
-
-/* Encabezado y navegación */
 
 /* Main content */
 main {
@@ -44,7 +41,7 @@ main p {
 
 /* Efecto de agrandamiento al pasar el ratón por encima de las imágenes */
 .image-container img:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
     box-shadow: 0 8px 15px rgba(0, 255, 0, 0.3);
 }
 
