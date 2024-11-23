@@ -17,6 +17,22 @@ main {
     border-radius: 8px;
     margin: 20px 0;
     border: 1px solid #00FF00;
+    
+}
+
+
+ul {
+    text-align: left;
+}
+
+#team table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th, td {
+    border: 1px solid #FFF;
 }
 
 li,p {
