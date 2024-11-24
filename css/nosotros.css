@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #FFF;
+}
+
+main {
+    padding: 20px;
+}
+
+#about,
+#team,
+#fabricacion,
+#media {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 1px solid #00FF00;
+    
+}
+
+
+ul {
+    text-align: left;
+}
+
+#team table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th, td {
+    border: 1px solid #FFF;
+}
+
+li,p {
+    color: white;
+}
+
+h2,
+h3 {
+    color: #00FF00;
+}
+
+
+
+/* Estilo base para ambos diseños */
+#imagen1, #imagen2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Espacio entre la imagen y el texto */
+    padding: 20px;
+}
+
+.image-container {
+    flex: 1;
+    /* Imagen ocupa espacio proporcional */
+}
+
+.text-container {
+    flex: 2;
+    /* Texto ocupa más espacio que la imagen */
+}
+
+.text-container h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.fotoFabrica1,
+.fotoFabrica2 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+
+
+
+/* Media query para móviles */
+
+
+
+@media (max-width: 768px) {
+    .product {
+        flex-basis: calc(40% - 10px); /* Adapta el espacio entre productos para pantallas menores a 768px */
+        max-width: calc(40% - 10px);
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .product {
+        flex-basis: calc(22% - 20px);
+        max-width: calc(22% - 20px);
+    }
+}
+
+
+
+
+
+
