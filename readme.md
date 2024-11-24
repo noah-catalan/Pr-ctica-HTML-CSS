@@ -194,16 +194,20 @@ El diseño es adaptable a diferentes tamaños de pantalla mediante `media querie
 - **CSS3**: Para estilizar las páginas.
 - **Flexbox**: Para diseño de layouts dinámicos.
 
-## Fotos diferentes formatos de pantalla
-- **Foto de Index en PC**
-![Foto de Index en PC](/src/FotosMovilPc/Index-ordenador.jpeg "Vista del proyecto")
-- **Foto de Index en Movil**
-![Foto de Index en Movil](/src/FotosMovilPc/Index-Movil.jpeg "Vista del proyecto")
-- **Foto de Artículos en PC**
-![Foto de Artículos en PC](/src/FotosMovilPc/Articulos-Ordenador.jpeg "Vista del proyecto")
-- **Foto de Index en PC**
-![Foto de Artículos en Movil](/src/FotosMovilPc/Articulos-Movil.jpeg "Vista del proyecto")
-- **Foto de Artículos en Movil**
+## Fotos en diferentes formatos de pantalla
+
+- **Foto de Index en PC**  
+  ![Foto de Index en PC](/src/FotosMovilPc/Index-ordenador.jpeg "Vista del proyecto")
+
+- **Foto de Index en Móvil**  
+  ![Foto de Index en Movil](/src/FotosMovilPc/Index-Movil.jpeg "Vista del proyecto")
+
+- **Foto de Artículos en PC**  
+  ![Foto de Artículos en PC](/src/FotosMovilPc/Articulos-Ordenador.jpeg "Vista del proyecto")
+
+- **Foto de Artículos en Móvil**  
+  ![Foto de Artículos en Movil](/src/FotosMovilPc/Articulos-Movil.jpeg "Vista del proyecto")
+
 
 
 ## Reparto de Tareas
