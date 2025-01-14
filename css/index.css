@@ -45,3 +45,59 @@ main p {
     box-shadow: 0 8px 15px rgba(0, 255, 0, 0.3);
 }
 
+
+
+
+
+/* Formulario */
+.subscription-form {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 20px auto;
+    color: #EEE;
+}
+
+.subscription-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #DDD;
+}
+
+.subscription-form input[type="email"],
+.subscription-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #00FF00;
+    border-radius: 4px;
+    background-color: #000;
+    color: #EEE;
+}
+
+.subscription-form fieldset {   
+    border: none;
+    margin-bottom: 10px;
+}
+
+.subscription-form legend {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #00FF00;
+}
+
+
+.subscription-form button {
+    background-color: #00FF00;
+    color: #000;
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.subscription-form button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}

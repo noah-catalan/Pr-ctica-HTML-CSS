@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/index.css">
 </head>
@@ -34,8 +34,35 @@
             <img src="../src/img/jerseyLanaRecicladaBlanco.jpeg" alt="Jersey de lana reciclada blanco">
             <img src="../src/img/mochilaMinimalistaNegra.jpeg" alt="Mochila minimalista negra">
         </div>
+        
+        <br><br>
+
+        <div class="subscription-form">
+            <h3>Suscríbete a nuestro boletín</h3>
+            <form action="#" method="post">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="preferencias">Preferencias:</label>
+                <select id="preferencias" name="preferencias">
+                    <option value="moda">Moda</option>
+                    <option value="ofertas">Ofertas</option>
+                    <option value="novedades">Novedades</option>
+                </select>
+                
+                <fieldset>
+                    <legend>Intereses:</legend>
+                    <label><input type="checkbox" name="intereses" value="ropa"> Ropa</label>
+                    <label><input type="checkbox" name="intereses" value="accesorios"> Accesorios</label>
+                    <label><input type="checkbox" name="intereses" value="calzado"> Calzado</label>
+                </fieldset>
+                
+                <button type="submit">Suscribirse</button>
+            </form>
+        </div>
+
     </main>
-    
+
     <footer>
         <p>©2024, E-Closet. Todos los derechos reservados.</p>
         <a href="https://www.instagram.com/ecloset/#">Instagram</a>
