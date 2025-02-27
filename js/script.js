@@ -10,3 +10,36 @@ function restaurarColor(){
 }
 
 // Punto 6
+
+let currentIndex = 0;
+
+function moveCarousel(direction) {
+    const imagenes = document.querySelectorAll('.carrusel-imagenes img');
+    currentIndex += direction;
+
+    if (currentIndex < 0) {
+        currentIndex = imagenes.length - 1;
+    } else if (currentIndex >= imagenes.length) {
+        currentIndex = 0;
+    }
+
+    images.forEach((img, index) => {
+        if (index === currentIndex) {
+            img.style.display = 'block';
+        } else {
+            img.style.display = 'none';
+        }
+    });
+}
+
+// Inicialización del carrusel
+document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('.carrusel-imagenes img');
+    images.forEach((img, index) => {
+        if (index === 0) {
+            img.style.display = 'block';
+        } else {
+            img.style.display = 'none';
+        }
+    });
+});
