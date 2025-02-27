@@ -212,8 +212,6 @@ El diseño es adaptable a diferentes tamaños de pantalla mediante `media querie
 
 ## Reparto de Tareas
 
-- **Álvaro Callejero**: CSS y HTML de las páginas **Nosotros** y **Contacto**.
-
 - **Noah Catalán**: 
   - CSS y HTML de las páginas **Artículos** y **Detalles**.
   - HTML de algunos artículos.
@@ -230,3 +228,9 @@ El diseño es adaptable a diferentes tamaños de pantalla mediante `media querie
   - Conexión entre los archivos **CSS** y los HTML.
   - Fotos mostrando cómo se ve en diferentes tipos de pantalla.
   - Documentación.
+
+
+| Integrante      | Tareas realizadas    | Tiempo dedicado | Descripción del trabajo   |
+|-----------------|----------------------|-----------------|---------------------------|
+| Noah Catalán    | Puntos 5-9           |  9h               | Cambiar dinamicamente el estilo de un elemento, crear un banner de imagenes desplazable, mostrar imagenes en miniatura ampliables al hacer click, calidar campos de un formulario y documentación.
+| Diego Quiroga   | Puntos 1-4           |  10h               | Se ha definido un array de objetos para ordenar los articulos, añadido efecto visual para mostrar y ocultar un elemento de la web, creado un botón para cambiar el tema de la web y implementado un boton que al hacer click muestra dinamicamente la lista de comentarios.
