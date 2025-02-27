@@ -72,10 +72,7 @@ footer .social-links a:hover {
     cursor: pointer;
 }
 
-.thumbnail-gallery img:hover {
-    transform: scale(1.5);
-    transition: 0.5s transform;
-}
+
 
 /* Details Section */
 .details-section {

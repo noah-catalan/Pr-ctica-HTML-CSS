@@ -43,3 +43,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+
+// Punto 7
+
+
+function toggleImageSize(img) {
+    const mainImage = document.querySelector('.main-image');
+    const tempSrc = mainImage.src;
+    mainImage.src = img.src;
+    img.src = tempSrc;
+}
