@@ -23,7 +23,7 @@ function moveCarousel(direction) {
         currentIndex = 0;
     }
 
-    images.forEach((img, index) => {
+    imagenes.forEach((img, index) => {
         if (index === currentIndex) {
             img.style.display = 'block';
         } else {
@@ -34,8 +34,8 @@ function moveCarousel(direction) {
 
 // Inicialización del carrusel
 document.addEventListener('DOMContentLoaded', () => {
-    const images = document.querySelectorAll('.carrusel-imagenes img');
-    images.forEach((img, index) => {
+    const imagenes = document.querySelectorAll('.carrusel-imagenes img');
+    imagenes.forEach((img, index) => {
         if (index === 0) {
             img.style.display = 'block';
         } else {
