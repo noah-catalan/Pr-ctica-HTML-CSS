@@ -1,0 +1,325 @@
+/*Estilos generales */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #000000;
+    color: #EEE;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+/* Tema claro */
+body.light-theme {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+body.light-theme header {
+    background-color: #EEEEEE;
+}
+
+body.light-theme .logo {
+    color: #0000FF;
+}
+
+body.light-theme .nav-menu a {
+    color: #0000FF;
+}
+
+body.light-theme .nav-menu a:hover {
+    color: #000;
+}
+
+body.light-theme footer {
+    background-color: #EEEEEE;
+    color: #0000FF;
+}
+
+body.light-theme footer a {
+    color: #0000FF;
+}
+
+body.light-theme footer a:hover {
+    color: #000;
+}
+
+body.light-theme #contacto {
+    background-color: #F9F9F9;
+    color: #000;
+}
+
+body.light-theme #contacto h2, 
+body.light-theme #contacto h3 {
+    color: #0000FF;
+}
+
+body.light-theme #contacto form label {
+    color: #0000FF;
+}
+
+body.light-theme #contacto form input, 
+body.light-theme #contacto form textarea {
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #0000FF;
+}
+
+body.light-theme #contacto form button {
+    background-color: #0000FF;
+    color: #FFF;
+}
+
+/* Tema oscuro */
+body.dark-theme {
+    background-color: #000000;
+    color: #EEE;
+}
+
+body.dark-theme header {
+    background-color: #111;
+}
+
+body.dark-theme .logo {
+    color: #00FF00;
+}
+
+body.dark-theme .nav-menu a {
+    color: #00FF00;
+}
+
+body.dark-theme .nav-menu a:hover {
+    color: #FFF;
+}
+
+body.dark-theme footer {
+    background-color: #111;
+    color: #00FF00;
+}
+
+body.dark-theme footer a {
+    color: #00FF00;
+}
+
+body.dark-theme footer a:hover {
+    color: white;
+}
+
+body.dark-theme #contacto {
+    background-color: #111;
+    color: #EEE;
+}
+
+body.dark-theme #contacto h2, 
+body.dark-theme #contacto h3 {
+    color: #00FF00;
+}
+
+body.dark-theme #contacto form label {
+    color: #00FF00;
+}
+
+body.dark-theme #contacto form input, 
+body.dark-theme #contacto form textarea {
+    background-color: #222;
+    color: #FFF;
+    border: 1px solid #00FF00;
+}
+
+body.dark-theme #contacto form button {
+    background-color: #00FF00;
+    color: #000;
+}
+
+/*Encabezado*/
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 25px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-menu a:hover {
+    transform: scale(1.1); /* Efecto de zoom */
+}
+
+.nav-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: auto;
+    width: 100%;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+footer a:hover {
+    transform: scale(1.1);
+}
+
+/* Ajustes para cuando la pantalla es pequeña */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .image-container img {
+        width: 80%;
+        max-width: 100%;
+    }
+}
+
+/* Estilos para la sección de comentarios */
+#commentsSection {
+    margin-top: 20px;
+}
+
+#commentsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#commentsList li {
+    background-color: #222;
+    color: #FFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+body.light-theme #commentsList li {
+    background-color: #FFF;
+    color: #000;
+}
+
+#commentForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#commentForm label {
+    margin-top: 10px;
+    color: #00FF00;
+}
+
+body.light-theme #commentForm label {
+    color: #0000FF;
+}
+
+#commentForm textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #00FF00;
+    margin-top: 5px;
+    background-color: #222;
+    color: #FFF;
+}
+
+body.light-theme #commentForm textarea {
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #0000FF;
+}
+
+#commentForm button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #00FF00;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#commentForm button:hover {
+    background-color: #FFF;
+}
+
+body.light-theme #commentForm button {
+    background-color: #0000FF;
+    color: #FFF;
+}
+
+body.light-theme #commentForm button:hover {
+    background-color: #000;
+}
+
+#themeToggleButton, #toggleCommentsButton {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #00FF00;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#themeToggleButton:hover, #toggleCommentsButton:hover {
+    background-color: #FFF;
+}
+
+body.light-theme #themeToggleButton, body.light-theme #toggleCommentsButton {
+    background-color: #0000FF;
+    color: #FFF;
+}
+
+body.light-theme #themeToggleButton:hover, body.light-theme #toggleCommentsButton:hover {
+    background-color: #000;
+}

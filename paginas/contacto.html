@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body class="dark-theme">
+    <div id="header-container"></div>
+
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <p>¿Tienes alguna pregunta o necesitas ayuda? ¡Estamos aquí para ayudarte! Puedes ponerte en contacto con nosotros a través de los siguientes medios. Nuestro equipo está disponible para resolver cualquier duda sobre nuestros productos, pedidos, envíos y más.</p>
+
+            <ul>
+                <li>
+                    <strong>Teléfono:</strong><br>
+                    📞 +34 971 43 23 57<br>
+                    De lunes a viernes, de 9:00 a 18:00 horas.
+                </li>
+                <li>
+                    <strong>Correo Electrónico:</strong><br>
+                    📧 contacto@ecloset.com<br>
+                    Resolvemos tus consultas en un plazo de 24 horas.
+                </li>
+                <li>
+                    <strong>Dirección de la Tienda:</strong><br>
+                    📍 Carrer Nostra Senyora de Bonany<br>
+                    Palma de Mallorca, Islas Baleares, 07011
+                </li>
+                <li>
+                    <strong>Redes Sociales:</strong><br>
+                    Síguenos en nuestras redes sociales para conocer las últimas novedades y promociones:<br>
+                    Instagram: @ecloset<br>
+                    Facebook: facebook.com/ecloset
+                </li>
+            </ul>
+
+            <h3>Formulario de Contacto</h3>
+            <p>Si prefieres, también puedes escribirnos directamente a través del siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+
+            <button id="toggleFormButton" onclick="toggleForm()">Mostrar/Ocultar Formulario</button>
+
+            <form id="contactForm" action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <h3>Comentarios</h3>
+            <button id="toggleCommentsButton" onclick="toggleComments()">Mostrar/Ocultar Comentarios</button>
+            <div id="commentsSection" style="display: none;">
+                <ul id="commentsList"></ul>
+                <form id="commentForm" onsubmit="addComment(event)">
+                    <label for="comment">Comentario:</label>
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+                    <button type="submit">Enviar Comentario</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script src="../js/load-components.js"></script>
+</body>
+
+</html>

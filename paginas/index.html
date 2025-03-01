@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <div id="header-container"></div>
+    <main>
+        <h3>¿Que somos?</h3>
+        <p>En E-closet, encontrarás moda minimalista y asequible diseñada para adaptarse a tu estilo de vida diario. Nuestra selección 
+            de prendas combina simplicidad y funcionalidad, ofreciendo opciones que se adaptan a cualquier ocasión. Descubre una experiencia de compra cómoda y accesible,
+             donde cada pieza está pensada para ser un esencial en tu armario.</p>
+        
+        <div class="image-container">
+            <img src="../src/img/CamisetaLisaNegra.jpeg" alt="Hombre con camiseta lisa">
+            <img src="../src/img/Pantalones-Chandal.jpeg" alt="Pareja con pantalones chandal">
+            <img src="../src/img/sudaderaNegraLisa.jpeg" alt="Sudadera negra lisa unisex">
+            <img src="../src/img/CamisetaBlanzaAlgodonMujer.jpeg" alt="Hombre con camiseta lisa">
+            <img src="../src/img/jerseyLanaRecicladaBlanco.jpeg" alt="Jersey de lana reciclada blanco">
+            <img src="../src/img/mochilaMinimalistaNegra.jpeg" alt="Mochila minimalista negra">
+        </div>
+        
+        <br><br>
+
+        <div class="subscription-form" onmouseover="cambiarFondoAGrisClaro()" onmouseout="restaurarColor()">
+            <h3>Suscríbete a nuestro boletín</h3>
+            <form action="#" method="post">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="preferencias">Preferencias:</label>
+                <select id="preferencias" name="preferencias">
+                    <option value="moda">Moda</option>
+                    <option value="ofertas">Ofertas</option>
+                    <option value="novedades">Novedades</option>
+                </select>
+                
+                <fieldset>
+                    <legend>Intereses:</legend>
+                    <label><input type="checkbox" name="intereses" value="ropa"> Ropa</label>
+                    <label><input type="checkbox" name="intereses" value="accesorios"> Accesorios</label>
+                    <label><input type="checkbox" name="intereses" value="calzado"> Calzado</label>
+                </fieldset>
+                
+                <button type="submit">Suscribirse</button>
+            </form>
+        </div>
+
+    </main>
+
+    <div id="footer-container"></div>
+</body>
+<script src="../js/load-components.js"></script>
+</html>
