@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
 body {
     font-family: Arial, sans-serif;
     background-color: #000;
@@ -8,6 +13,11 @@ main {
     padding: 20px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
 #contacto {
     background-color: #111;
     padding: 20px;
@@ -16,6 +26,7 @@ main {
     border: 1px solid #00FF00;
 }
 
+<<<<<<< HEAD
 h2, h3 {
     color: #00FF00;
 }
@@ -29,6 +40,13 @@ ul li {
     margin-bottom: 15px;
 }
 
+=======
+
+h2 {
+    color: #00FF00;
+}
+
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
 form {
     display: flex;
     flex-direction: column;
@@ -63,6 +81,7 @@ form button {
 form button:hover {
     background-color: #FFF;
 }
+<<<<<<< HEAD
 
 #toggleFormButton {
     margin-top: 15px;
@@ -79,3 +98,5 @@ form button:hover {
 #toggleFormButton:hover {
     background-color: #FFF;
 }
+=======
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b

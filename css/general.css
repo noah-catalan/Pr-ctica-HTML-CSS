@@ -17,6 +17,7 @@ html, body {
     line-height: 1.6;
 }
 
+<<<<<<< HEAD
 /* Tema claro */
 body.light-theme {
     background-color: #FFFFFF;
@@ -138,10 +139,17 @@ body.dark-theme #contacto form button {
     background-color: #00FF00;
     color: #000;
 }
+=======
+
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
 
 /*Encabezado*/
 
 header {
+<<<<<<< HEAD
+=======
+    background-color: #111;
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -152,6 +160,10 @@ header {
 .logo {
     text-decoration: underline;
     font-style: italic;
+<<<<<<< HEAD
+=======
+    color: #00FF00;
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
     font-size: 1.8rem;
     font-weight: bold;
     margin-left: 20px;
@@ -165,6 +177,10 @@ header {
 }
 
 .nav-menu a {
+<<<<<<< HEAD
+=======
+    color: #00FF00;
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
     text-decoration: none;
     font-weight: bold;
     margin: 0 25px;
@@ -172,9 +188,18 @@ header {
 }
 
 .nav-menu a:hover {
+<<<<<<< HEAD
     transform: scale(1.1); /* Efecto de zoom */
 }
 
+=======
+    color: #FFF;
+    transform: scale(1.1); /* Efecto de zoom */
+}
+
+
+
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
 .nav-container {
     display: flex;
     width: 100%;
@@ -182,9 +207,18 @@ header {
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
 /* Footer */
 
 footer {
+=======
+
+/* Footer */
+
+footer {
+    background-color: #111;
+    color: #00FF00;
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
     padding: 20px;
     text-align: center;
     font-size: 0.9em;
@@ -193,12 +227,20 @@ footer {
 }
 
 footer a {
+<<<<<<< HEAD
+=======
+    color: #00FF00;
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
     margin: 0 10px;
     text-decoration: none;
     transition: color 0.3s, transform 0.3s;
 }
 
 footer a:hover {
+<<<<<<< HEAD
+=======
+    color: white;
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
     transform: scale(1.1);
 }
 
@@ -221,6 +263,7 @@ footer a:hover {
     }
 }
 
+<<<<<<< HEAD
 /* Estilos para la sección de comentarios */
 #commentsSection {
     margin-top: 20px;
@@ -323,3 +366,6 @@ body.light-theme #themeToggleButton, body.light-theme #toggleCommentsButton {
 body.light-theme #themeToggleButton:hover, body.light-theme #toggleCommentsButton:hover {
     background-color: #000;
 }
+=======
+
+>>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
