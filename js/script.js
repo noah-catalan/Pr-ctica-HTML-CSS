@@ -189,3 +189,36 @@ function toggleImageSize(img) {
     mainImage.src = img.src;
     img.src = tempSrc;
 }
+
+
+// Punto 8
+function validateForm(event) {
+    event.preventDefault(); // Evita el envío del formulario para validarlo primero
+
+    const email = document.getElementById('email').value;
+    const preferencias = document.getElementById('preferencias').value;
+    const intereses = document.querySelectorAll('input[name="intereses"]:checked');
+
+    // Validar correo electrónico
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(email)) {
+        alert('Por favor, introduce un correo electrónico válido.');
+        return false;
+    }
+
+    // Validar preferencias
+    if (preferencias === "") {
+        alert('Por favor, selecciona una preferencia.');
+        return false;
+    }
+
+    // Validar intereses
+    if (intereses.length === 0) {
+        alert('Por favor, selecciona al menos un interés.');
+        return false;
+    }
+
+    // Si todas las validaciones pasan, envía el formulario
+    alert('Formulario enviado correctamente.');
+    return true;
+}
