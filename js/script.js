@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Punto 1
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -134,8 +133,6 @@ function addComment(event) {
     commentInput.value = '';
 }
 
-=======
->>>>>>> 45f63db0cc772926d99505ab69e3997cc03a400b
 // Punto 5
 function cambiarFondoAGrisClaro(){
     let form = document.getElementsByClassName('subscription-form');
