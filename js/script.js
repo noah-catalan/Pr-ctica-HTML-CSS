@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
             price: parseFloat(product.querySelector(".price").textContent.replace("€", "")),
             visits: Math.floor(Math.random() * 500), // Simulación de visitas aleatorias
             imageSrc: product.querySelector("img").getAttribute("src"), // Mantiene la ruta correcta
-            pageLink: `articulos/${product.querySelector("h2").textContent.toLowerCase().replace(/ /g, "_")}.html` // Espacios como "_"
+            pageLink: `${product.querySelector("h2").textContent.toLowerCase().replace(/ /g, "_")}.html` // Espacios como "_"
         };
     });
 
