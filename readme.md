@@ -4,12 +4,21 @@ E-Closet es una plataforma de moda en línea que ofrece prendas básicas y esenc
 
 ## Índice
 
+#### Parte de HTML/CSS
+
 - [Introducción](#introducción)
 - [Estructura de Archivos](#estructura-de-archivos)
 - [Secciones Principales](#secciones-principales)
 - [Estilos](#estilos)
 - [Responsividad](#responsividad)
+
+#### Parte de JavaScript
+- [Funcionalidades implementadas en JavaScript](#funcionalidades-implementadas-en-javascript)
+
+
+#### Tecnologías y reparticion de tareas
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Repartición de tareas](#reparto-de-tareas)
 
 ## Introducción
 
@@ -210,6 +219,19 @@ El diseño es adaptable a diferentes tamaños de pantalla mediante `media querie
 
 
 
+
+## Funcionalidades implementadas en JavaScript
+- **Filtrado y ordenado de productos**: Se pueden filtrar productos por precio y ordenarlos por nombre, precio o visitas.
+- **Formulario de contacto dinámico**: Se muestra y oculta el formulario para evitar distracciones.
+- **Cambio de tema**: Se alterna entre tema oscuro y claro.
+- **Sección de comentarios**: Se pueden agregar y mostrar comentarios al instante.
+- **Carrusel de imágenes**: Permite desplazarse por diferentes imágenes con un botón.
+- **Validación de formularios**: Valida campos de correo, preferencias e intereses antes de enviar.
+
+
+
+
+
 ## Reparto de Tareas
 
 - **Noah Catalán**: 
@@ -232,5 +254,5 @@ El diseño es adaptable a diferentes tamaños de pantalla mediante `media querie
 
 | Integrante      | Tareas realizadas    | Tiempo dedicado | Descripción del trabajo   |
 |-----------------|----------------------|-----------------|---------------------------|
-| Noah Catalán    | Puntos 5-9           |  9h               | Cambiar dinamicamente el estilo de un elemento, crear un banner de imagenes desplazable, mostrar imagenes en miniatura ampliables al hacer click, calidar campos de un formulario y documentación.
+| Noah Catalán    | Puntos 5-9           |  10h               | Cambiar dinamicamente el estilo de un elemento, crear un banner de imagenes desplazable, mostrar imagenes en miniatura ampliables al hacer click, validar campos de un formulario y documentación.
 | Diego Quiroga   | Puntos 1-4           |  10h               | Se ha definido un array de objetos para ordenar los articulos, añadido efecto visual para mostrar y ocultar un elemento de la web, creado un botón para cambiar el tema de la web y implementado un boton que al hacer click muestra dinamicamente la lista de comentarios.
